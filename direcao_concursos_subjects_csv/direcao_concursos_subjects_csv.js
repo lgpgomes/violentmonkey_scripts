@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name        Adobe Reader Interface Clean
+// @name        Direção Concusos Subject to Csv
 // @namespace   Violentmonkey Scripts
 // @match       https://www.direcaoconcursos.com.br/cursos/*
 // @grant       none
 // @version     1.0
 // @author      Luiz
 // @inject-into content
-// @description 21/10/2023, 13:00:30
+// @description 21/10/2023, 15:00:00
 // ==/UserScript==
 
 const subjects = document.querySelectorAll("table > tbody > tr:not([class]");
