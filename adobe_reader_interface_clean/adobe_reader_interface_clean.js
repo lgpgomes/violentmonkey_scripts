@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://documentcloud.adobe.com/gsuiteintegration/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      Luiz
 // @inject-into content
 // @updateURL https://raw.githubusercontent.com/lgpgomes/violentmonkey_scripts/main/adobe_reader_interface_clean/adobe_reader_interface_clean.js
