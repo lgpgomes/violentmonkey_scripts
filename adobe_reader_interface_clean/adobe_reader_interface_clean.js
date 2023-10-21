@@ -95,17 +95,17 @@ addStyle(`
 // Função para esperar a existência de um elemento no DOM
 function waitForElementToExist(selector) {
   return new Promise((resolve) => {
-    const element1 = document.querySelector(selector);
+    const element = document.querySelector(selector);
 
-    if (element1) {
-      resolve(element1);
+    if (element) {
+      resolve(element);
       return;
     }
 
     const observer = new MutationObserver(() => {
-      const element1 = document.querySelector(selector);
-      if (element1) {
-        resolve(element1);
+      const element = document.querySelector(selector);
+      if (element) {
+        resolve(element);
         observer.disconnect();
       }
     });
