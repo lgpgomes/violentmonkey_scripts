@@ -6,6 +6,7 @@
 // @version     1.0
 // @author      Luiz
 // @inject-into content
+// @updateURL https://raw.githubusercontent.com/lgpgomes/violentmonkey_scripts/main/adobe_reader_interface_clean/adobe_reader_interface_clean.js
 // @description 21/10/2023, 13:00:30
 // ==/UserScript==
 
