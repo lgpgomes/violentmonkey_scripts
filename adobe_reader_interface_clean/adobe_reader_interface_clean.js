@@ -118,14 +118,14 @@ function waitForElementToExist(selector) {
   });
 }
 
+
 function newToolAction(newToolInner, selector) {
   newToolInner.classList.toggle("toolActive");
   document.querySelector("#root").classList.toggle(selector);
 }
 
 
-//Função para adiconar fade no header
-function addToolOnQuickTools(onClickFunction, className, svg) {
+function addToolOnQuickTools(selector, className, svg) {
   var quickToolsList = document.querySelector("#quick-tools-view");
 
   var newTool = document.createElement("li");
